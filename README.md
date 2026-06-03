@@ -44,4 +44,4 @@ DNS may take up to 24 hours to propagate.
 
 ## Pages
 
-- Home, The Problem, Industry Impact, Services, Medical Billing, How It Works, Contact
+- Home, The Problem, Industry Impact, Services, Medical Billing, How It Works, Compliance, Contact
