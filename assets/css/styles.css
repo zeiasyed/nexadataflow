@@ -152,9 +152,81 @@ a:hover { color: var(--primary-dark); }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.hero-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.hero-visual {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.hero-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.visual-band {
+  padding: 3rem 0;
+  background: var(--white);
+  border-block: 1px solid var(--border);
+}
+
+.visual-band-inner {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
   gap: 2.5rem;
   align-items: center;
+}
+
+.visual-band-figure {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.visual-band-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.visual-band-text h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  color: var(--primary-dark);
+}
+
+.visual-band-text p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 42ch;
+}
+
+.card-with-icon .card-illus {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.card-with-icon h3 {
+  margin-top: 0;
+}
+
+.compliance-teaser-icon {
+  display: block;
+  margin: 0 auto 1rem;
 }
 
 .eyebrow {
@@ -510,7 +582,9 @@ a:hover { color: var(--primary-dark); }
   }
   .nav-links.is-open { display: flex; }
   .site-header .container { position: relative; }
-  .hero-grid, .grid-2, .grid-3, .grid-4, .contact-grid, .footer-grid {
+  .hero-grid, .visual-band-inner, .grid-2, .grid-3, .grid-4, .contact-grid, .footer-grid {
     grid-template-columns: 1fr;
   }
+
+  .hero-visual { order: -1; }
 }
