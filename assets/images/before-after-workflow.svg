@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 540" role="img" aria-labelledby="title desc">
+  <title id="title">Before and after: admin data entry with NexaDataFlow</title>
+  <desc id="desc">Today shows high work volume requiring multiple admin staff to enter the same patient data into separate lab systems. Tomorrow shows one admin entering once into NexaDataFlow, which distributes data to each system.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d4f5c"/>
+      <stop offset="100%" stop-color="#2a9d8f"/>
+    </linearGradient>
+    <linearGradient id="tomorrowBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8f3f5"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0d4f5c" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c45c4a"/>
+    </marker>
+    <marker id="arrowTeal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2a9d8f"/>
+    </marker>
+  </defs>
+
+  <text x="550" y="40" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700" fill="#083840">Admin data entry: before and after</text>
+
+  <!-- TODAY panel -->
+  <g filter="url(#cardShadow)">
+    <rect x="36" y="58" width="508" height="430" rx="16" fill="#fff" stroke="#e8d4b8" stroke-width="2"/>
+  </g>
+  <rect x="36" y="58" width="508" height="48" rx="16" fill="#fff5f0"/>
+  <rect x="36" y="94" width="508" height="12" fill="#fff5f0"/>
+  <text x="290" y="90" text-anchor="middle" font-size="20" font-weight="700" fill="#9a4a3a">TODAY</text>
+  <text x="290" y="112" text-anchor="middle" font-size="12" fill="#5c6b7a">High volume - many admins - same data into each system</text>
+
+  <rect x="175" y="124" width="230" height="24" rx="12" fill="#fff5f0" stroke="#e8d4b8"/>
+  <text x="290" y="140" text-anchor="middle" font-size="10" font-weight="700" fill="#9a4a3a">Work volume requires more admin headcount</text>
+
+  <!-- 5 admins -->
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <g><circle cx="95" cy="188" r="18" fill="#15697a" opacity="0.25"/><circle cx="95" cy="182" r="8" fill="#0d4f5c"/><path d="M81 196 Q95 190 109 196 L109 212 L81 212 Z" fill="#0d4f5c"/><text x="95" y="228" text-anchor="middle" font-size="9" font-weight="700" fill="#5c6b7a">Admin</text></g>
+    <g><circle cx="165" cy="188" r="18" fill="#15697a" opacity="0.25"/><circle cx="165" cy="182" r="8" fill="#0d4f5c"/><path d="M151 196 Q165 190 179 196 L179 212 L151 212 Z" fill="#0d4f5c"/><text x="165" y="228" text-anchor="middle" font-size="9" font-weight="700" fill="#5c6b7a">Admin</text></g>
+    <g><circle cx="235" cy="188" r="18" fill="#15697a" opacity="0.25"/><circle cx="235" cy="182" r="8" fill="#0d4f5c"/><path d="M221 196 Q235 190 249 196 L249 212 L221 212 Z" fill="#0d4f5c"/><text x="235" y="228" text-anchor="middle" font-size="9" font-weight="700" fill="#5c6b7a">Admin</text></g>
+    <g><circle cx="305" cy="188" r="18" fill="#15697a" opacity="0.25"/><circle cx="305" cy="182" r="8" fill="#0d4f5c"/><path d="M291 196 Q305 190 319 196 L319 212 L291 212 Z" fill="#0d4f5c"/><text x="305" y="228" text-anchor="middle" font-size="9" font-weight="700" fill="#5c6b7a">Admin</text></g>
+    <g><circle cx="375" cy="188" r="18" fill="#15697a" opacity="0.25"/><circle cx="375" cy="182" r="8" fill="#0d4f5c"/><path d="M361 196 Q375 190 389 196 L389 212 L361 212 Z" fill="#0d4f5c"/><text x="375" y="228" text-anchor="middle" font-size="9" font-weight="700" fill="#5c6b7a">Admin</text></g>
+    <g><circle cx="445" cy="188" r="18" fill="#15697a" opacity="0.25"/><circle cx="445" cy="182" r="8" fill="#0d4f5c"/><path d="M431 196 Q445 190 459 196 L459 212 L431 212 Z" fill="#0d4f5c"/><text x="445" y="228" text-anchor="middle" font-size="9" font-weight="700" fill="#5c6b7a">Admin</text></g>
+  </g>
+
+  <!-- Separate systems TODAY -->
+  <rect x="58" y="268" width="88" height="52" rx="8" fill="#f4f7f9" stroke="#dde4ea" stroke-width="1.5"/>
+  <text x="102" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">LIMS</text>
+  <text x="102" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">orders</text>
+
+  <rect x="156" y="268" width="88" height="52" rx="8" fill="#f4f7f9" stroke="#dde4ea" stroke-width="1.5"/>
+  <text x="200" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">Instruments</text>
+  <text x="200" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">results</text>
+
+  <rect x="254" y="268" width="88" height="52" rx="8" fill="#f4f7f9" stroke="#dde4ea" stroke-width="1.5"/>
+  <text x="298" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">Billing</text>
+  <text x="298" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">RCM</text>
+
+  <rect x="352" y="268" width="88" height="52" rx="8" fill="#f4f7f9" stroke="#dde4ea" stroke-width="1.5"/>
+  <text x="396" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">Spreadsheets</text>
+  <text x="396" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">bridges</text>
+
+  <rect x="450" y="268" width="76" height="52" rx="8" fill="#f4f7f9" stroke="#dde4ea" stroke-width="1.5"/>
+  <text x="488" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">EMR</text>
+  <text x="488" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">orders</text>
+
+  <!-- Multiple admins -> each system (overlap) -->
+  <path d="M95 212 L102 268" stroke="#c45c4a" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowRed)" opacity="0.9"/>
+  <path d="M165 212 L102 268" stroke="#c45c4a" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowRed)" opacity="0.7"/>
+  <path d="M235 212 L200 268" stroke="#c45c4a" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowRed)" opacity="0.9"/>
+  <path d="M305 212 L298 268" stroke="#c45c4a" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowRed)" opacity="0.8"/>
+  <path d="M375 212 L298 268" stroke="#c45c4a" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowRed)" opacity="0.7"/>
+  <path d="M445 212 L396 268" stroke="#c45c4a" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowRed)" opacity="0.9"/>
+  <path d="M95 212 L200 268" stroke="#c45c4a" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.45"/>
+  <path d="M235 212 L102 268" stroke="#c45c4a" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.45"/>
+  <path d="M305 212 L396 268" stroke="#c45c4a" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.45"/>
+  <path d="M375 212 L488 268" stroke="#c45c4a" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowRed)" opacity="0.8"/>
+  <path d="M165 212 L488 268" stroke="#c45c4a" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.4"/>
+  <path d="M445 212 L298 268" stroke="#c45c4a" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.4"/>
+
+  <text x="290" y="348" text-anchor="middle" font-size="11" font-weight="600" fill="#9a4a3a">Every admin re-keys into every system</text>
+  <text x="290" y="366" text-anchor="middle" font-size="10" fill="#5c6b7a">Separate tools - duplicate work - not separate ownership</text>
+  <text x="290" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#9a4a3a">More headcount from volume, not from specialization</text>
+  <text x="290" y="418" text-anchor="middle" font-size="10" fill="#5c6b7a">Same patient data entered again and again</text>
+  <text x="290" y="458" text-anchor="middle" font-size="11" fill="#9a4a3a">More staff still does not eliminate duplicate entry</text>
+
+  <!-- Center arrow -->
+  <circle cx="550" cy="280" r="34" fill="url(#brand)"/>
+  <path d="M540 280 L560 280 M554 274 L564 280 L554 286" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- TOMORROW panel -->
+  <g filter="url(#cardShadow)">
+    <rect x="556" y="58" width="508" height="430" rx="16" fill="url(#tomorrowBg)" stroke="#2a9d8f" stroke-width="2"/>
+  </g>
+  <rect x="556" y="58" width="508" height="48" rx="16" fill="#e8f3f5"/>
+  <rect x="556" y="94" width="508" height="12" fill="#e8f3f5"/>
+  <text x="810" y="90" text-anchor="middle" font-size="20" font-weight="700" fill="#0d4f5c">TOMORROW</text>
+  <text x="810" y="112" text-anchor="middle" font-size="12" fill="#5c6b7a">One admin - one entry - NexaDataFlow routes to each system</text>
+
+  <circle cx="680" cy="200" r="26" fill="#2a9d8f" opacity="0.25"/>
+  <circle cx="680" cy="192" r="11" fill="#0d4f5c"/>
+  <path d="M656 216 Q680 204 704 216 L704 244 L656 244 Z" fill="#0d4f5c"/>
+  <text x="680" y="262" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">1 admin</text>
+
+  <rect x="748" y="158" width="184" height="80" rx="12" fill="url(#brand)"/>
+  <text x="840" y="192" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">NexaDataFlow</text>
+  <text x="840" y="212" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.92)">single entry point</text>
+  <text x="840" y="228" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.92)">distributes to all systems</text>
+  <path d="M706 210 L748 210" stroke="#2a9d8f" stroke-width="3" marker-end="url(#arrowTeal)"/>
+
+  <!-- Separate systems TOMORROW -->
+  <rect x="578" y="268" width="88" height="52" rx="8" fill="#fff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="622" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">LIMS</text>
+  <text x="622" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">synced</text>
+
+  <rect x="676" y="268" width="88" height="52" rx="8" fill="#fff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="720" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">Instruments</text>
+  <text x="720" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">synced</text>
+
+  <rect x="774" y="268" width="88" height="52" rx="8" fill="#fff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="818" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">Billing</text>
+  <text x="818" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">synced</text>
+
+  <rect x="872" y="268" width="88" height="52" rx="8" fill="#fff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="916" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">Spreadsheets</text>
+  <text x="916" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">retired</text>
+
+  <rect x="970" y="268" width="76" height="52" rx="8" fill="#fff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="1008" y="290" text-anchor="middle" font-size="11" font-weight="700" fill="#0d4f5c">EMR</text>
+  <text x="1008" y="306" text-anchor="middle" font-size="9" fill="#5c6b7a">synced</text>
+
+  <path d="M800 238 L622 268" stroke="#2a9d8f" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+  <path d="M820 238 L720 268" stroke="#2a9d8f" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+  <path d="M840 238 L818 268" stroke="#2a9d8f" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+  <path d="M860 238 L916 268" stroke="#2a9d8f" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+  <path d="M880 238 L1008 268" stroke="#2a9d8f" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+
+  <text x="810" y="348" text-anchor="middle" font-size="11" font-weight="600" fill="#0d4f5c">Each system updated once - automatically</text>
+  <text x="810" y="366" text-anchor="middle" font-size="10" fill="#5c6b7a">Handle volume without adding admin re-keying</text>
+  <text x="810" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#0d4f5c">Same separate systems - one source of truth</text>
+  <text x="810" y="458" text-anchor="middle" font-size="11" fill="#0d4f5c">Scale throughput, not headcount</text>
+</svg>

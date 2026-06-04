@@ -225,6 +225,28 @@ a:hover { color: var(--primary-dark); }
 
 .section-header p { margin: 0; color: var(--muted); }
 
+.diagram-section .section-header {
+  max-width: 720px;
+}
+
+.diagram-figure {
+  margin: 0;
+  padding: 1rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow-x: auto;
+}
+
+.diagram-figure img {
+  display: block;
+  width: 100%;
+  min-width: 640px;
+  height: auto;
+  margin-inline: auto;
+}
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
