@@ -35,11 +35,11 @@
 <section class="section"><div class="container contact-grid">
 <div>
 <div class="contact-card"><h2>Call us</h2><p>The fastest way to get started. Calls ring through to our team via Google Voice — no scheduling app required.</p><p style="margin:1.25rem 0;"><a class="btn btn-accent" data-site-phone-link href="#">Call Now</a></p><p style="font-size:0.88rem;color:var(--muted);">Display: <strong data-site-phone>(555) 000-0000</strong></p></div>
-<div class="contact-card" style="margin-top:1.5rem;"><h2>Direct contact</h2><p><strong>Email:</strong> <a data-site-email href="mailto:hello@nexadataflow.com">hello@nexadataflow.com</a></p><p><strong>Phone:</strong> <span data-site-phone>(555) 000-0000</span></p><p style="font-size:0.88rem;color:var(--muted);">Replace placeholders in config.js when ready.</p></div>
+<div class="contact-card" style="margin-top:1.5rem;"><h2>Direct contact</h2><p><strong>Email:</strong> <a data-site-email href="mailto:hello@nexadataflow.com">hello@nexadataflow.com</a></p><p><strong>Phone:</strong> <span data-site-phone>(555) 000-0000</span></p><p><strong>Headquarters:</strong><br><span data-site-address></span><br><a data-site-maps href="#" target="_blank" rel="noopener noreferrer">View on map</a></p></div>
 </div>
 <div class="contact-card">
 <h2>Send a message</h2>
-<form class="contact-form" action="mailto:hello@nexadataflow.com" method="post" enctype="text/plain">
+<form class="contact-form" data-site-mailto action="mailto:hello@nexadataflow.com" method="post" enctype="text/plain">
 <label>Your name<input type="text" name="name" required></label>
 <label>Lab / organization<input type="text" name="organization"></label>
 <label>I'm interested in<select name="interest"><option>Workflow automation</option><option>Medical billing</option><option>Billing + automation bundle</option><option>Embedded consultants</option><option>Not sure yet</option></select></label>
@@ -72,6 +72,7 @@
             <li><a data-site-email href="mailto:hello@nexadataflow.com">hello@nexadataflow.com</a></li>
             <li><span data-site-phone>(555) 000-0000</span></li>
             <li><a data-site-phone-link href="#">Call us</a></li>
+            <li class="footer-address"><span data-site-address></span></li>
           </ul>
         </div>
       </div>

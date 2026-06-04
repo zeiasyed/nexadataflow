@@ -28,6 +28,19 @@
   document.querySelectorAll("[data-site-company]").forEach(function (el) {
     el.textContent = SITE.company;
   });
+  if (SITE.addressLine1) {
+    var addressHtml = SITE.addressLine1;
+    if (SITE.addressLine2) addressHtml += "<br>" + SITE.addressLine2;
+    document.querySelectorAll("[data-site-address]").forEach(function (el) {
+      el.innerHTML = addressHtml;
+    });
+    document.querySelectorAll("[data-site-maps]").forEach(function (el) {
+      if (SITE.mapsUrl) el.href = SITE.mapsUrl;
+    });
+  }
+  document.querySelectorAll(".contact-form[data-site-mailto]").forEach(function (form) {
+    form.action = "mailto:" + SITE.email;
+  });
   const yearEl = document.getElementById("footer-year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 })();
